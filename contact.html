@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONTACT | MyBlog</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<style type="text/css">
+		.anim 
+		{
+		  width: 5px;
+		  height: 200px;
+		  background-color: #222121;
+		  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+		  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+		  animation-name: example;
+		  animation-duration: 1s;
+		}
+		@keyframes example{
+		  from 
+		  {width:5px;height: 0px;}
+		  to {height:200px;}
+		form{
+			font-family: Montserrat, sans-serif;font-size: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="d-flex justify-content-around">
+		<div class="anim"></div>
+		<div class="text-center py-5">
+			<p style="font-family:Montserrat, sans-serif;font-size: 50px;color: #222121;"><u>CONTACT</u></p>
+		</div>
+	</div>
+	<div class="jumbotron jumbotron-fluid" style="background-color: #222121;">
+		<form action="mail.php" method="POST" data-netlify="true">
+    		<div class="form-group">
+        		<input type="text" class="form-control" id="inputName" placeholder="Name" name="name" required>
+    		</div>
+    		<div class="form-group">
+       	 		<input type="email" class="form-control" id="inputEmail" placeholder="E-Mail" name="email" required>
+    		</div>
+    		<div class="form-group">
+    			<textarea name="msg" required id="inputMessage" placeholder="Message" rows="3" cols="50"></textarea>
+    		</div>
+    		<button type="submit" class="btn btn-danger" id="submit" name="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>

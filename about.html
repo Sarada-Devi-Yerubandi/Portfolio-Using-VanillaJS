@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sarada Yerubandi | About</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<style type="text/css">
+		#profile{filter: grayscale(100%);}
+		.anim 
+		{
+		  width: 5px;
+		  height: 200px;
+		  background-color: #222121;
+		  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+		  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+		  animation-name: example;
+		  animation-duration: 1s;
+		  
+		}
+		@keyframes example
+		{
+		  from {width:5px;height: 8px;}
+		  to {height:200px;
+		 }
+		img {pointer-events: none;}
+	</style>
+	<script>
+		(function($){
+ 			$(document).on('contextmenu', 'img', function() 
+ 			{
+     	 		return false;
+  			})
+		})(jQuery);
+	</script>
+
+</head>
+<body>
+<div class="container-fluid">
+	<div class="d-flex justify-content-around">
+		<div class="anim"></div>
+		<div class="text-center py-5">
+			<p style="font-family:Montserrat, sans-serif;font-size: 50px;color: #222121;"><u>About Me</u></p>
+		</div>
+	</div>
+	<div class="row">
+	    <div class="col-sm">
+	    	<div class="container">
+	    		<img src="imgs/pp.jpg" class="img-fluid float-left" id="profile" style="height: 100%;">
+	    	</div>
+	    </div>
+	    <div class="col-sm">
+	    	<div class="jumbotron text-white-50 text-center" style="background-color:#222121;font-family:Montserrat, sans-serif">
+	    		<u><h2><small>Who Am I?</small></h2></u>
+	    		<p class="font-weight-normal pt-3">I'm Sarada Devi Yerubandi</p>
+	    		<h3><small><u>Where I'm from?</u></small></h3>
+				<p class="pt-3">Rajahmundry, Andhra Pradesh, India</p>
+				<h4><u>What I Am?</u></h3>
+				<p class="font-weight-normal pt-3">Student of B-Tech, Computer Science And Engineering.</p>
+				<h4><u>Where I am interested?</u></h4>
+				<p class="font-weight-normal pt-3">Photography and Web Designing.</p>
+				<h4><u>Why Photography?</u></h4>
+				<p class="font-weight-normal pt-3">Photography gave me a special connection with nature which I can't express in words but only through my pictures</p>
+	    	</div>
+	    </div>
+	</div>	
+ 	<footer id="sticky-footer" class="jumbotron py-2 text-white-50 text-center" style="background-color: #222121;">
+    	<div class="container">
+      		<p>&copy; 2020 Sarada Yerubandi<br>All Rights Reserved</p>
+    	</div>
+  	</footer>
+</div>
+</body>
+</html>
